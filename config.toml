@@ -1,4 +1,4 @@
-baseURL = "davorbadrov.github.io"
+baseURL = "https://davorbadrov.github.io/"
 languageCode = "en-us"
 title = "Davor Badrov"
 theme= "beautifulhugo"
