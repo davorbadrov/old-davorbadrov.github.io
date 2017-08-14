@@ -167,7 +167,7 @@ I believe the README.md file should be present on every project to describe what
 **PROS**
 
 - all can be nicely formatted there
-- you have the power of MARKDOWN to add links, usage examples and longer explanations for complex scripts
+- you have the power of Markdown to add links, usage examples and longer explanations for complex scripts
 
 **CONS**
 

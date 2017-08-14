@@ -122,5 +122,4 @@ Now you can enter `npm run` and press tab, and it'll list all your scripts, star
 
 ## Some exceptions
 
-This is just my view of a best practice, and there are always some exceptions, you shouldn't install `create-react-app` and similar tools as dependencies/devDependencies, that doesn't make much sense.
-For packages like `nodemon` (backend watcher and live reload) or `live-server` (super simple file server with live reload) I think there's no need to have them installed as dev dependencies and these are safe to be used as global packages, your teammates could have some 
+This is just my view of a best practice, and there are always some exceptions, you shouldn't install `create-react-app`, `preact-cli`, or similar tools as dependencies/devDependencies, that doesn't make much sense and that those and similar packages are safe to be used as global packages.
