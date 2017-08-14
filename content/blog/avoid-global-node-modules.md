@@ -5,7 +5,7 @@ title = "Avoid global node modules"
 
 +++
 
-I suggest avoiding project related global dependencies and installing everything you need for a project as main or dev dependencies. Sometimes you just want to hack something up and you do a `npm i -g ...` and start coding without thinking about the consequences. For example my team used a globally installed `sequelize-cli` which later cause problems due to different versions being installed accross the team. It can cause problems for your personal projects too, if you have one project using `sequelize` 3.x and one using `sequelize` 4.x and you're in a bad spot, now you have to think about managing the issue which adds unneeded and avoidable overhead.
+I suggest avoiding project related global dependencies and installing everything you need for a project as main or dev dependencies. Sometimes you just want to hack something up and you do a `npm i -g [package-name]` and start coding without thinking about the consequences. For example my team used a globally installed `sequelize-cli` which later cause problems due to different versions being installed accross the team. It can cause problems for your personal projects too, if you have one project using `sequelize` 3.x and one using `sequelize` 4.x and you're in a bad spot, now you have to think about managing the issue which adds unneeded and avoidable overhead.
 
 In my opinion the main reasons to avoid global dependencies are:
 
